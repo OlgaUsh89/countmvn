@@ -11,8 +11,8 @@ public class WorkAndRestService {
                 money = (money - expenses) / 3;
             } else {
                 money = money + income - expenses;
-                }
-
-                return count;
             }
+
+        return count;
     }
+}
